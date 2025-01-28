@@ -1,0 +1,28 @@
+# Quiz Platform
+
+## Description
+The **Quiz Platform** is an online quiz application built with **Django**, **Django REST Framework**, **MySQL**, and **Bootstrap**. The platform allows users to take quizzes on country capitals, track their scores, and challenge their knowledge of world geography.
+
+Key features include:
+- User authentication (login, logout, score tracking).
+- A timer for each quiz session.
+- Randomly selected questions from the admin panel.
+- Professional frontend built with Bootstrap.
+
+## Features
+- **Home Page**: A welcoming page where users can start the quiz or view their scores.
+- **Quiz**: 10 random questions about the capitals of countries.
+- **Score Page**: Displays the user's total score after completing the quiz.
+- **Authentication**: Users can log in and their scores will be saved.
+
+## Technologies Used
+- **Django**: Web framework for building the back-end.
+- **Django REST Framework**: API framework for building the quiz logic.
+- **MySQL**: Database for storing questions, user scores, and other data.
+- **Bootstrap**: Frontend framework for creating a responsive and professional UI.
+- **Python**: Programming language for the back-end logic.
+- **Pipenv**: Dependency management.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ellhamrjb/quiz_platform.git

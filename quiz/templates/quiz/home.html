@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Quiz Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container mt-5 text-center">
+        <h1>Are you ready to challenge your knowledge about the capitals of countries?</h1>
+        <div class="mt-4">
+            <a href="{% url 'start_quiz' %}" class="btn btn-success btn-lg">Yes!</a>
+            <a href="{% url 'view_score' %}" class="btn btn-info btn-lg">My Score</a>
+        </div>
+    </div>
+</body>
+</html>

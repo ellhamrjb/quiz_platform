@@ -1,0 +1,40 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# VN
+venv/
+.env/
+
+# Django settings
+*.sqlite3
+*.log
+
+# MySQL
+*.db
+
+# Environment variables
+.env
+
+# Pipenv
+Pipfile.lock
+
+# Coverage reports
+.coverage
+
+# Django migrations
+*/migrations/*
+
+# Static and media files
+/static/
+/media/
+
+# IDE files
+.vscode/
+.idea/
+
+
+
+# Windows
+Thumbs.db
